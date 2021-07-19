@@ -44,6 +44,8 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
+
+                {/*
                 <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
@@ -52,6 +54,7 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
+                */}
               </div>
             </div>
           </Fade>
@@ -67,6 +70,7 @@ class Contact extends Component {
                 >
                   {blogSection["subtitle"]}
                 </p>
+                {/*
                 <div className="blogsite-btn-div">
                   <Button
                     text="Visit My Blogsite"
@@ -75,6 +79,7 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
+                */}
               </div>
               <div className="blog-heading-img-div">
                 {/* <img
@@ -119,6 +124,7 @@ class Contact extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
+                {/*
                 <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"
@@ -127,6 +133,7 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
+                */}
               </div>
             </div>
           </Fade>

@@ -6,7 +6,7 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
 
-export default function Greeting(props) {
+/*export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -39,14 +39,17 @@ export default function Greeting(props) {
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+            </div> */
+/*}
             </div>
           </div>
           <div className="greeting-image-div">
             {/* <img
 							alt="saad sitting on table"
 							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
+						></img> */
+
+/*}
             <FeelingProud theme={theme} />
           </div>
         </div>
@@ -54,3 +57,4 @@ export default function Greeting(props) {
     </Fade>
   );
 }
+*/
